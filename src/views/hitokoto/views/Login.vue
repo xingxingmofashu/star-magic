@@ -20,8 +20,8 @@ import { storeToRefs } from 'pinia';
 import { reactive } from 'vue';
 import { useRouter } from 'vue-router';
 const form = reactive({
-    email: '2943560252@qq.com',
-    password: 'haoxihuanni..'
+    email: '',
+    password: ''
 })
 
 const router = useRouter();
